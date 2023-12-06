@@ -359,7 +359,7 @@ select {
 }
 .company {
   position: absolute;
-  top: 720px;
+  top: 707px;
   bottom: 0;
   left: 1280px;
   font-size: 16px;
@@ -427,4 +427,66 @@ select {
     font-size: 12px;
     font-weight: 600;
     color: #6E447B;
+}
+.data-center{
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  border-radius: 40px;
+}
+.year-center{
+  position: absolute;
+  top: 300px;
+  left: 1020px;
+  border-radius: 40px;
+}
+.month{
+  position: absolute;
+  top: 300px;
+  left: 884px;
+}
+.woman{
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  top: 380px;
+  left: 960px;
+  border-radius: 500px;
+  border: 1px solid var(--btn-primary, #EE0979);
+}
+.button {
+  width: 140px;
+  height: 50px;
+  background-image: linear-gradient(to left, #EE0979 0%, #FF6A00 100%);
+  color: #fff;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background-image: linear-gradient(to top, #EE0979, #FF6A00 100%);
+}
+
+.button:active {
+  background-image: linear-gradient(to top, #1502eb, #00a0fc);
+}
+.men-center{ 
+  position: absolute;
+  top: 380px;
+  left: 800px;
+  border-radius: 40px;
+}
+.votyti{ 
+  position: absolute;
+  top: 380px;
+  left: 800px;
+  border-radius: 40px;
+}
+.woman{
+
+}
+.woman-icon{
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  left: 50px;
 }
