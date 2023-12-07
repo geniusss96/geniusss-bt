@@ -78,12 +78,21 @@ body{
     cursor: pointer;
   }
 .read-book{
+    background-image: linear-gradient(to left, #2bee09 0%, #c0db10 100%);
     position: absolute;
-    left: 150px;
-    top: 750px;
-    width: 200px;
+    left: 285px;
+    top: 610px;
+    width: 185px;
     height: 50px;
     border-radius: 20px;
     border: 0;
     font-family: 'Mukta', sans-serif;
+    cursor: pointer;
 }
+.read-book:hover{
+    background-image: linear-gradient(to top, #2bee09  0%, #c0db10 100%);
+}
+.read-book:active {
+    background-image: linear-gradient(to top, rgb(28, 200, 238), rgb(91, 16, 222));
+  }
+@media
