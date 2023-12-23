@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Montserrat:wght@400;500;600&family=Nova+Square&family=Poppins:wght@500&family=Roboto&family=Rubik:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 10000px;
+}
+.text-menu{
+    transform: translateX(350px) translateY(50px);
+    float: left;
+    margin-left: 50px;
+    font-size: 26px;
+}
+.list-shar{
+    position: absolute;
+    top: 30px;
+    left: 1590px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.list{
+    width: 40px;
+    border: 2px solid black;
+    margin: 5px;
+    transform: translateY(20px) translateX(7px);
+}
+.hello-text{
+    position: absolute;
+    top: 260px;
+    left: 180px;
+    font-size: 26px;
+    color: #666;
+}
+.my-name{
+    position: absolute;
+    top: 280px;
+    left: 180px;
+}
+.text{
+    margin: 25px;
+}
+.decoretion-stone{
+    transform: translateX(1180px) translateY(180px) rotate(40deg);
+    border-radius: 900px 900px 490px 490px;
+    width: 400px;
+    height: 450px;
+    background-color: #ff00d0;
+}
+.decoretion-stone-two{
+    transform: translateX(1160px) translateY(-270px) rotate(-40deg);
+    border-radius: 900px 900px 490px 490px;
+    width: 400px;
+    height: 450px;
+    opacity: 50%;
+    background-color: blueviolet ;
+}
+.let-talk-text{
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    width: 220px;
+    height: 60px;
+    border-radius: 26px;
+    background-color:  #8643DC;
+    border: 0;
+    font-size: 26px;
+    color: white;
+}
+.services-text{
+    color: #8643DC;
+    position: absolute;
+    left: 205px;
+    top: 770px;
+    font-size: 20px;
+}
+.palka{ 
+    position: absolute;
+    top: 809px;
+    left: 205px;
+    width: 50px;
+    border: 1px solid  #8643DC;
+}
+.actual-text{
+    position: absolute;
+    left: 200px;
+    top: 850px;
+    font-size: 46px;
+}
+.decoretion-stone-mobile{
+    transform: translateX(200px) translateY(120px) rotate(40deg);
+    border-radius: 900px 900px 490px 490px;
+    width: 90px;
+    height: 70px;
+    background-color: #ff00d0;
+}
+.decoretion-stone-mobile-two{
+    transform: translateX(200px) translateY(50px) rotate(-40deg);
+    border-radius: 900px 900px 490px 490px;
+    width: 90px;
+    height: 70px;
+    opacity: 50%;
+    background-color: blueviolet ;
+}
+.samir-icon{
+    position: absolute;
+    top: 120px;
+    left: 870px;
+}
